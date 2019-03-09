@@ -279,9 +279,10 @@ h1 {
 .text-about {
     color: rgba(254,254,254,0.6);
     font-size: 8pt;
-    line-height: 2;
+    line-height: 21px;
     margin-top: 15px;
     width: 580px;
+    height: 75px;
 }
 
 article {
@@ -315,7 +316,7 @@ article {
     height: 539px;
     margin:  auto ;
     width: 956px;
-    
+    display: flex;
 }
 
 .pad2 {
@@ -324,10 +325,7 @@ article {
 
 .form {
     width: 580px;
-}
-
-form {
-    
+    margin: 44px 0 0 89px;
 }
 
 input {
@@ -341,7 +339,7 @@ input {
     width: 580px;
     height: 37px;
     size: 15px;
-    
+    margin-top: 21px;
 }
 
 input::placeholder {
@@ -352,8 +350,108 @@ input::placeholder {
 textarea::placeholder {
     size: 15px;
     color: rgba(255, 255, 255, 0.6);
+    font-family: roboto;
 }
 
 textarea {
-    
+    width: 580px;
+    height: 150px;
+    border: none;
+    background-color: #454545;
+    margin-top: 17px;
 }
+
+#email {
+    margin-top: 17px;
+}
+
+#subject {
+    margin-top: 17px;
+}
+
+.p11 {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 28px;
+    font-family: roboto;
+    word-spacing: 5px;
+    margin-bottom: 1px;
+}
+
+.p12 {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 18px;
+    font-family: roboto;
+    word-spacing: 2px;
+}
+
+#submit {
+    margin-top:12px;
+    margin-left: 490px;
+    width: 90px;
+    background-color: #2eb398;
+    color: #fff;
+    font-size: 10px;
+    font-weight: bold; 
+}
+
+.in-touch {
+    margin: 116px 0 0 20px;
+}
+
+.in-touch p {
+    color: rgba(255, 255, 255, 0.7);
+    word-spacing: 8px;
+    font-family: roboto;
+    line-height: 19px;
+    font-size: 12px;
+    width: 185px;
+    word-wrap: break-word;
+}
+
+#strong {
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.in-touch div img {
+    position: relative;
+    float: left;
+    top: 5px;
+}
+
+.in-touch div p {
+    margin: 0 0 0 24px;
+    word-spacing: 1px;
+}
+
+.location {
+    margin-top:33px;
+}
+
+.tel {
+    margin-top:3px;
+}
+
+.em{
+    margin-top:4px;
+}
+
+/*END GET IN TOUCH*/
+
+/*FOOTER*/
+
+footer {
+    height: 40px;
+    background-color: #222222;
+}
+
+footer p {
+    color: #343434;
+    font-size: 13px;
+    margin-left: 27px;
+}
+
+footer div {
+    height: 14px;
+}
+
+/*END FOOTER*/
