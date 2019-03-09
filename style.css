@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/*HEADER*/
+header {
+    width:100%;
+    height: 63px;
+    background-color: #323232;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+/*@import url('https://fonts.googleapis.com/css?family=Roboto');*/
+
+li {
+   color:#fff;
+   font-family: Roboto; 
+}
+
+.li-content {
+    margin: 26px 4px 22px 8px;
+    font-size: 10px;
+    
+}
+
+.logo {
+    width:64px;
+    margin: 11px 32px 0 33px;
+}
+
+.dot {
+    color:#484c5f;
+}
+
+header:after {
+    content: "";
+    width: 0;
+    height: 0;
+    border-left: 47px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 26px solid #323232;
+    position: absolute;
+    top: 63px;
+    transform: traslateX(-50);
+    margin: 0 auto;
+}
+
+.hr {
+    justify-content: space-between;
+    display: flex;
+}
+
+hr {
+    color: #eaeaea;
+    width: 40%;
+    justify-content: space-between;
+    opacity: 0.2;
+}
+
+.hr-right {
+    margin-top: 11px;
+    margin-right: 3.5%; 
+}
+
+.hr-left {
+    margin-top: 11px;
+    margin-left: 3.5% ;
+}
+
+a {
+    text-decoration: none;
+    color:#fff;
+}
+
+a:active {
+    color: #488a7c;
+}
+/*END HEADER*/
+
+/*PORTFOLIO*/
+.hexagon {
+	width: 180px;
+	height: 104px;
+	background: red;
+	position: relative;
+}
+.hexagon:before {
+	content: "";
+	position: absolute;
+	top: -51px; 
+	left: 0;
+	width: 0;
+	height: 0;
+	border-left: 91px solid transparent;
+	border-right: 89px solid transparent;
+	border-bottom: 51px solid red;
+}
+.hexagon:after {
+	content: "";
+	position: absolute;
+	bottom: -51px; 
+	left: 0;
+	width: 0;
+	height: 0;
+	border-left: 90px solid transparent;
+	border-right: 89px solid transparent;
+	border-top: 51px solid red;
+}
+
+.portfolio {
+    width: 100%;
+
+}
+
+.row-1 {
+    display: flex;
+    width: 779px;
+    justify-content: space-between;
+    position: relative;
+    margin: 0 auto;
+    border-left: 1px solid #eaeaea;
+    border-right: 1px solid #eaeaea;
+    padding-left: 21px;
+    padding-right: 21px;
+}
+
+.row1-1 {
+    
+}
