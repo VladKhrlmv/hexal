@@ -192,7 +192,6 @@ a:active {
     margin: -42px auto 0 auto;
     padding-left: 21px;
     padding-right: 21px;
-    padding-top: -5px; 
     z-index: 25;
 }
 
@@ -452,23 +451,21 @@ input {
 #name {
     width: 580px;
     height: 37px;
-    size: 15px;
     margin-top: 21px;
 }
 
 input::placeholder {
-    size: 15px;
+    
     color: rgba(255, 255, 255, 0.6);
     word-spacing: -1px;
     letter-spacing: -1px;
 }
 
 textarea::placeholder {
-    size: 15px;
     color: rgba(255, 255, 255, 0.6);
     font-family: roboto;
     line-height: 40px;
-    word-spacing: -1px;
+    word-spacing: 0.5px;
     letter-spacing: -1px;
 }
 
